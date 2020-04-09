@@ -11,9 +11,15 @@
   <ItemGroup>
     <Folder Include="Models\Accounts\" />
     <Folder Include="Views\Accounts\" />
+    <Folder Include="Services\" />
+    <Folder Include="Models\AdvertManagement\" />
+    <Folder Include="Views\AdvertManagement\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Amazon.AspNetCore.Identity.Cognito" Version="1.0.3" />
     <PackageReference Include="Amazon.Extensions.CognitoAuthentication" Version="1.0.3" />
+    <PackageReference Include="AWSSDK.S3" Version="3.3.110.50" />
+    <PackageReference Include="AWSSDK.ServiceDiscovery" Version="3.3.100.159" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
   </ItemGroup>
 </Project>
